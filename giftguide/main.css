@@ -1,0 +1,1100 @@
+@media all{
+
+@font-face {
+	font-family: "Franklin ITC Pro Cond Bold";
+	src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/ef09a3e4-b930-4653-ad83-ee5f2512f01f") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Franklin ITC Pro Light";
+	src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/b0b46d96-9995-46cb-ba31-18465dd214e5") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Franklin ITC Pro Med";
+	src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/9c582439-b425-4dd9-99de-236ef90c7432") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+body{
+	font-family:Georgia,  'Helvetica New', Helvetica, sans-serif;
+	font-size:14px;
+	font-weight: normal;
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;	
+}
+
+h1,h2,h3,h4,h5{
+	line-height: 1em;
+    margin: 0 0 8px;
+    padding: 0;
+	font-family:'Franklin ITC Pro Cond Bold', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	letter-spacing: 0px;
+
+}
+a h1,a h2,a h3,a h4, a h5{
+	color:#000;
+	text-decoration:none;
+}
+a:hover h1,a:hover h2,a:hover h3,a:hover h4, a:hover h5{
+	text-decoration:underline;
+}
+#primary .row{
+	margin-bottom:15px;
+}
+.wfull{
+	border-bottom:1px solid #7f7f7f;
+	margin-bottom:10px;			
+	line-height:1.2em;
+	font-size:14px;
+	overflow:hidden;
+}
+.wfull.featured.topstory{
+	padding-bottom:15px;
+}
+.wfull.topstory h2{
+	font-size: 32px;
+}
+
+#leaderboard img {
+	float:none;
+}
+#leaderboard .max_leaderboard{
+	margin: 0 auto;
+    max-width: 960px;
+    text-align: center;
+}
+.wfull{
+	overflow: hidden;
+}
+.wfull span, #secondary .wfull span{
+	margin-bottom:15px;
+	line-height: 15px;
+	font-size:13px;
+	display: block;
+}
+ .wfull.featured span, #secondary .wfull.featured span{
+	font-size:16px;
+	line-height:20px;
+	font-weight:normal;
+}
+.img320x192{
+	width:320px;
+	height:192px;
+}
+.img150x90{
+	width:150px;
+	height:90px;
+}
+.img150x192{
+	width:150px;
+	height:192px;
+}
+.img320x448{
+	width:320px;
+	height:448px;
+}
+ .wfull h1{
+	font-size:32px;
+}
+ .wfull h2{
+	font-size:24px;
+	clear:both;
+}
+ .wfull.cartoon h2{
+	font-size:16px;
+	color:#004ea6;
+	letter-spacing:0;
+	text-rendering: optimizeLegibility;
+	font-family:'Franklin ITC Pro Light', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-weight: normal;
+}
+ .wfull img{
+	margin-right:20px;
+	margin-bottom:20px;
+	float:left;
+}
+.post-meta{
+	font-family:'Franklin ITC Pro Light', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-weight: normal;
+}
+.post-meta img{
+	margin-bottom:0 !important;	
+}
+.btn{
+	font-family:'Franklin ITC Pro Med', Georgia,  'Helvetica New', Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.bottom5{
+	margin-bottom:5px;	
+}
+.floatleft{
+	float:left;
+}
+
+.related{
+	list-style:url(/images/responsive/blue_bullet.png);
+	padding-left:10px;
+	clear:both;
+}
+.related li{
+	line-height:1em;
+	margin-bottom:8px;
+}
+.related a {
+	color:#004ea6;
+	text-decoration:none;
+	font-size:14px;
+	
+}
+.related a:hover {
+	text-decoration:underline;
+}
+
+.sectionHeader{
+	text-align:center;
+	border-bottom:2px solid #333;
+	margin-bottom:15px;
+	display:block;
+}
+.sectionHeader h3{
+	font-size:26px;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	margin:0;
+	padding:5px 0 8px;
+	letter-spacing:1px;
+	text-rendering: optimizeLegibility;
+}
+.sectionHeader h3 a{
+	color:#000;
+	font-size:26px;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+.sectionHeader h3 a:hover{
+	color:#004EA6;
+}
+.rborder{
+	border-right:1px solid #666;
+}
+.noborder{
+	border:none;
+}
+.borderTop {
+	border-top:1px solid #333;
+}
+.borderBottom{
+	border-bottom:1px solid #333;
+}
+ .photoSection .row, .photoSection .row{
+	margin-bottom:10px;
+}
+
+.photoSection .caption{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	padding:20px;
+	color:#fff;
+	max-width:305px;
+	max-height:192px;
+	font-size:14px;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	line-height:1.3em;
+}
+.photoSection .c12.sectionHeader{
+	margin-bottom:0;
+	border:0;
+}
+.photoSection a h2 {color:#fff;}
+
+.photoSection a:hover .caption{
+	text-decoration:underline;
+}
+.c6.sectionHeader{
+	margin-right:10px;	
+}
+
+.leftpad{
+	padding:0 0 0 10px;
+}
+.rightpad{
+	padding:0 10px 0 0;
+}
+
+.cartoon img,  .cartoon img{
+	margin-bottom:10px;
+}
+.cartoon h2{
+	color:#5083d7;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:normal;
+}
+.cartoon a{
+	clear:both;
+	display:block;
+	margin: 0 0 10px;
+}
+
+.adunit300x100 img,  .adunit300x100 img{
+	margin:0 auto;
+	float:none;
+	width:300px;
+	min-width:300px;
+}
+
+.adunit300x100 a{
+	margin:0 auto;
+	display:block;
+	text-align: center;
+}
+.adunit300x250{
+	margin:0 auto 10px;
+	float:none;
+	width:300px;
+	min-width:300px;
+	padding-bottom: 10px;
+}
+/* photo gallery classes begins */
+.photo_gallery{
+	background:#333;
+	color:#fff;
+	overflow:hidden;
+	padding-top:15px;
+	position: relative;
+	/*-webkit-transform: translate3d(0, 0, 0);*/
+}
+.photo_gallery .row{
+	position:relative;	
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	/*-webkit-backface-visibility: hidden;*/
+	-webkit-perspective: 1000;
+	-webkit-transform-style: preserve-3d;
+}
+.photo_gallery img{
+	margin-right:15px;
+	margin-bottom:15px;
+	float:left;
+	width:100%;
+}
+.photo_gallery h2{
+	font-size:20px;
+	margin:0 10px 10px;
+}
+.photo_gallery .wfull{
+	border:none;
+}
+.photo_gallery .controls{
+	margin: 0 auto 10px;
+	overflow: hidden;
+	display:none;
+}
+.photo_gallery .controls span{
+	display:none;
+}
+.photo_gallery .controls .left,  .photo_gallery .controls .right{
+	float:left;
+	cursor:pointer;
+	margin:2px 5px;
+	width:6px;
+	height:11px;
+	background: url(/images/responsive/slider_sprite.png) left center no-repeat;
+}
+.photo_gallery .controls .right{
+	float:right;
+	background-position: right center;
+}
+.photo_gallery .marker{
+	width:8px;
+	height:8px;
+	background:url(/images/responsive/slider_sprite.png) -20px -1px no-repeat;
+	cursor:pointer;
+	margin:3px;
+	float:left;
+}
+.photo_gallery .marker.selected{
+	background-position:-10px -1px;
+	cursor:default;
+}
+
+/* large format photo gallery begins*/
+.large_format.photo_gallery{
+	/*height: 570px;*/
+	padding:0;
+	background:#fff;
+	border-bottom:1px solid #666;
+}
+.large_format.photo_gallery .image-caption{
+	color:#666;
+	font-size:14px;
+	font-weight:normal;
+	background:#fff;
+	border:0;
+	width:100%;
+	margin:0;
+	clear:both;
+	/*position:absolute;
+	bottom: 0px;*/
+	position:relative;	
+	z-index:9999;
+}
+.large_format.photo_gallery .slide_markers{
+	display: inline-block;
+    margin: 0 auto;
+}
+.large_format.photo_gallery .slide_markers .marker{
+	background:transparent url(/images/responsive/slider_sprite_markers.png) 0 0 no-repeat;
+	width:8px;
+	height:8px;
+	margin:0 5px 5px 0;
+	float:left;
+}
+.large_format.photo_gallery .slide_markers .marker.selected{
+	background-position:-18px 0;
+}
+.large_format.photo_gallery .slide_list{
+	width:100%;
+	padding: 0 10px 10px;
+	margin:0;
+	text-align:center;
+	background:#fff;
+}
+.large_format.photo_gallery .controls{
+	position:absolute;
+	top:0;
+	z-index:999;
+	width:100% !important;
+}
+.large_format.photo_gallery .controls span{
+	display:block;
+	font-size:30px;
+    line-height: 38px;
+	left: 0px;
+	margin:0;
+}
+.large_format.photo_gallery .controls .left, .large_format.photo_gallery .controls .right{
+	background:#222 url(/images/responsive/slider_arrow_sprite.png) 13px center no-repeat;
+    color: #fff;
+    height: 50px;
+    opacity: 0.5;
+    text-align: center;
+    width: 40px;
+	margin:0;
+	/*margin:30% 0 0;*/
+}
+.large_format.photo_gallery .controls .right{
+	background-position:-20px center;
+}
+.large_format.photo_gallery .controls .left:hover, .large_format.photo_gallery .controls .right:hover{
+	opacity:0.9;
+}
+
+.large_format.photo_gallery .row{
+	margin:0;
+}
+.large_format.photo_gallery .controls{
+	display:block;
+}
+
+.large_format.photo_gallery .c6.mid .img_link{
+	background:#333;
+	display:block;
+	height:100%;
+	position:relative;
+	text-align:center;
+}
+
+
+.large_format.photo_gallery img {
+    float: none;
+    margin: 0 auto;
+    width: auto;
+}
+.wfull .large_format.photo_gallery .mid{
+	margin:0 !important;
+	padding:0 !important;
+	/*max-height: 460px;
+	min-height:400px;*/
+    overflow: hidden;
+	width:100%;
+}
+.large_format.photo_gallery #swipebox{
+    height: 230px;
+    left: 40px;
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    width: 87%;
+    z-index: 9999;	
+}
+/* photo gallery classes ends */
+	
+.alerts, .trafficUpdates {
+	background:#b85d64 url(/images/responsive/bg_alerts.png) 0 0 no-repeat;
+	height:50px;
+	font-weight:bold;
+	margin:0 0 15px;	
+	overflow:hidden;
+	font-family:'Franklin ITC Pro Cond Bold', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size:16px;
+}
+.trafficUpdates {
+	background:#487ab7 url(/images/responsive/bg_traffic_updates.png) 0 0 no-repeat;
+}
+.alerts a, .trafficUpdates a{
+	margin:0px 0 0 125px;
+	line-height:3em;
+	color:#fff;
+}
+.alerts a:hover, .trafficUpdates a:hover{
+	text-decoration:underline;
+}
+.secondaryTxt{
+	display:none;
+}
+
+/*
+wallpaper classes - begins
+*/
+
+.itunesbanner {
+	margin:0px 0px 0px -10px !important;
+}
+.wallpaper {
+  background: none;
+}
+.wallpaper .wallpaper-wrapper {
+  position: fixed;
+}
+  
+.wallpaper .wallpaper-wrapper #spot-left,
+.wallpaper .wallpaper-wrapper #spot-right {
+  float: left;
+  width: 160px;
+  height: 1000px;
+  background-repeat: no-repeat;
+}
+.wallpaper .wallpaper-wrapper #spot-left {
+  background-position: top right;
+}
+.wallpaper .wallpaper-wrapper #spot-right {
+  background-position: top left;
+}
+.wallpaper .wallpaper-wrapper #spot-center {
+  float: left;
+  width: 960px;
+  height: 1000px;
+}
+
+/*
+wallpaper classes - ends
+*/
+.windsorOntario{
+	text-align:center;
+	border-bottom:2px solid #000;
+	padding:5px 0 10px;
+}	
+.windsorOntario img{
+	margin:0 auto;
+	float:none;
+}
+#breadcrumbs{
+	font-weight:normal;
+	line-height:1em;
+	text-transform:capitalize;
+	font-family:Georgia,'Times New Roman',Times,serif;
+	font-size:16px;
+}
+#breadcrumbs a{
+	font-family:'Franklin ITC Pro Cond Bold', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	font-weight: normal;
+}
+#breadcrumbs .parent-cat{
+	font-size:18px;
+	font-weight:normal;
+	font-family:'Franklin ITC Pro Cond Bold', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+}
+
+
+h1.headline{
+	font-size:42px;
+	color:#000;
+	margin-bottom:20px;
+	line-height:1em;
+}
+
+.social-bar{
+	padding:10px 0;
+}
+.social-bar li {
+    margin-right: 18px;
+}
+.comments-button, .email-button{
+	background-image:url(/images/responsive/story_icon_sprites.png); 
+	background-repeat:no-repeat;
+	background-position: 8px 7px;
+	padding:7px 5px 5px 25px;
+	font-weight:bold;
+}
+.email-button{
+	background-position: 8px -14px;
+}
+.post-meta{
+	padding-bottom:20px;
+	line-height:1.8em;
+}
+.wfull.topstory .post-meta img{
+	width:60px;
+	height:60px;
+	float:left;
+}
+.top-menu {
+    font-size: 12px;
+	font-weight: normal;
+}
+.top-menu .menu li:last-child a {
+	text-transform:uppercase;color:#000;
+}
+#site-navigation #site-sub-navigation.top-menu{
+	display:none;
+}
+
+.top-menu li:after {
+    content: "•";
+    float: right;
+    margin-top: 3px;
+	color:#004ea6;
+}
+.top-menu ul.fl li:after {
+    content: "•";
+	color:#000;
+}
+.top-menu ul.fl li:last-child:after {
+	color:#fff;
+}
+
+.top-menu ul.fl li, 
+#site-sub-navigation ul.fl li a {
+	color:#004ea6;
+	margin-top:1px;
+}
+.top-menu ul.fl li:first-child{
+    font-family:'Franklin ITC Pro Cond Bold', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size:16px;
+	font-weight: normal;
+	margin-top:2px;
+	color:#000;
+}
+
+.top-menu li a {
+    font-family:'Franklin ITC Pro Cond Bold', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size:15px;
+	font-weight: normal;
+}
+
+#mobile, .sticky-header #header {
+    z-index: 999999;
+}
+#footer{
+	font-family:'Franklin ITC Pro Light', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size:13px;
+	font-weight: normal;
+}
+#footer a{
+	color:#004ea6;
+}
+#footer-menus h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:1px;
+	font-weight: normal;
+}
+.post-content p{
+	font-size:16px;
+	line-height:25px;
+}
+.single-author{
+	color: #0058CD;
+}
+
+#large-title h1 {
+	letter-spacing:2px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+#footer .mobile-main-menu li a {
+	color:#fff;
+}
+#footer #footer-menus #partners .menu ul li{
+	width:33.33%;
+	float:left;
+}
+.tweet{
+	width:98%;
+	border-top:1px solid #000;
+	overflow:hidden;
+	margin-bottom: 10px;
+    padding-top: 10px;
+}
+.tweet:first-child{
+	border:0;
+	padding-top:0;
+}
+.tweet p{
+	margin:5px 0;
+	padding:0;
+	color:#888;
+}
+.tweet img.thumb {
+	display: inline-block !important;
+    height: auto;
+    max-width: 100%;
+	margin: 2px 5px 0 0;
+	float:left;
+}
+.tweet .user_name{
+	color:#000;
+	font-weight:bold;
+	font-size:18px;
+	font-family:'Franklin ITC Pro Cond Bold', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+.tweet .screen_name{
+	font-weight:normal;
+	color:#000;
+	font-size:16px;
+	font-family:'Franklin ITC Pro Cond Bold', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+.tweet a{
+	font-size:12px;
+	color:#1499CC;
+	text-decoration:none;
+}
+.tweet a:hover{
+	text-decoration:underline;
+}
+
+.tweet .createdAt{
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#5d5d5d;
+}
+.tweet .toolbar{
+	margin:10px 0 15px 50px;
+	font-size:10px;
+	color:#666;
+	white-space:nowrap;
+	clear:both;
+}
+.tweet .toolbar a{
+	width:auto;
+	height:15px;
+	background:transparent url(/images/responsive/twitter_toolbar_sprite.png) 0 -2px no-repeat;
+	display:block;
+	float:left;
+	margin:0 3px 0 0;
+	padding-left:15px;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#1499CC;
+}
+.tweet .toolbar .retweet{
+	background-position:0px -15px;
+}
+.tweet .toolbar .favorite{
+	background-position:0px -28px;
+}
+.tweet .toolbar .date{
+	float:left;
+	background:transparent url(/images/responsive/twitter_logo_small.png) 0 3px no-repeat;
+	padding:0 0 0 13px;
+	margin:0;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color:#1499CC;
+}
+.tweet .tweet_body{
+	float: left;
+    margin: 0 0 8px 0;
+    width: 81%;
+}
+.wfull .searchform.newsalerts{
+	position:relative !important;
+	right:0;
+	top:0;
+	width:100%;
+	margin:0 0 20px;
+}
+/*.searchform input{
+	padding: 8px 0 8px 5px;
+}*/
+.mobile-menu .icon-reorder{
+	display:none;
+}
+.mobile-search .icon-search{
+	display:none;
+}
+/*#mobile .button.mobile-search{
+	background:url(/images/responsive/magnifying.png) right 0 no-repeat;
+	padding-right:20px;
+}
+#mobile .button.mobile-menu{
+	background:url(/images/responsive/sections.png) left 0 no-repeat;
+	padding-left:25px;
+}*/
+
+#mobile .button.mobile-menu,
+#mobile .button.mobile-search {
+	padding: 0 0.5em;
+}
+
+
+.mobile-main-menu li i.icon-remove{
+	background:#222222 url(/images/responsive/remove.png) center 4px no-repeat;
+}
+.mobile-main-menu li i.icon-chevron-down{
+	background:#222222 url(/images/responsive/chevron.png) center 7px no-repeat;
+}
+/*#mobile {
+	min-height: 40px;
+}
+.sticky-header #mobile {
+	min-height: auto;
+}*/
+#flyertown_sidebar_widget {
+	margin:5px auto 0 !important;
+}
+/*#mobile .button {
+	font-size: 16px !important
+}*/
+.mobile-main-menu .searchform:after {
+	background:url(/images/responsive/magnifying.png) right 0px no-repeat;
+}
+
+.mobile-main-menu .searchform input {
+	font-size:14px;
+}
+.date-stamp{
+	font-family:'Franklin ITC Pro Light', Georgia,  'Helvetica New', Helvetica, sans-serif;
+	font-weight: normal;
+	font-size:13px;
+	color:#000;
+	text-transform:uppercase;
+	margin-left:5px;
+}
+.top-menu ul.fr {
+    margin: 5px 0 0;
+}
+.top-menu ul.fl li:first-child{
+	width:115px;
+}
+.top-menu ul.fl li:first-child strong{
+	white-space:nowrap !important;
+}
+.story-category{
+	display:none;
+}
+.trending-topics ul.fl li:first-child{
+	white-space:nowrap !important;
+	word-wrap:normal !important
+}
+.pinterest-button, .twitter-button, .gplus-button{
+	float:left;
+	margin: 0 0 0 10px;
+}
+.thumb_farm.wfull{
+	border:0;
+}
+
+#primary .row .c6.rborder div .section_title h3{
+	margin-bottom:0;
+}
+	
+}
+
+@media handheld, only screen and (max-width: 767px), only screen and (max-device-width: 768px) and (orientation:portrait){
+	/* Framework Hack */
+	#primary.c8{
+		width:55.33%;
+		border-right:1px solid #666;
+	}
+	#secondary.c4{
+		width:44.33%;
+	}
+	/* Framework Hack Ends*/
+	
+	 .wfull img.img320x192, .wfull img.img320x192,  .wfull img.img320x448, .wfull img.img320x448 {
+		margin: 0 8% 15px;
+		float:none;
+	}
+	.wfull.topstory img, .centered .wfull img{
+		display:block;
+		width:300px;
+		height:auto;
+		margin:0 auto 15px;
+		float:none;
+	}
+	
+	.leftpad, .rightpad{
+		padding:0;
+	}
+	.rborder{
+		border:0;
+	}
+	.photo_gallery .controls{
+		display:block;
+	}
+	#swipebox{
+		width:100%;
+		height:200px;
+		margin:20% auto;
+		z-index:9999;
+		position:absolute;
+	}
+	.thumb_farm .c3 {
+		width:48%;
+		font-size: 10px;
+	}
+	.large_format.photo_gallery {
+		overflow:visible;
+	}
+	.large_format.photo_gallery #swipebox {
+		height: 55%;
+    	top: 10px;
+		width: 80%;
+	}
+	.large_format.photo_gallery a h2 {
+		bottom:-25px;
+	}
+	.social-bar {
+		margin: 100px 0 20px;
+	}
+	#large-title .twitter-follow-button {
+		top: 65px;
+		right:0;
+	}
+	.photo_gallery #swipebox {
+		height:50%;
+	}
+	
+	.alerts a, .trafficUpdates a {
+		color: #FFFFFF;
+		float: right;
+		line-height: 20px;
+		margin: 5px 0 5px 10px;
+		width: 70%;
+	}
+	.photo_gallery .row{	
+		-webkit-transition: all .1s ease-in-out;
+		-moz-transition: all .1s ease-in-out;
+		-o-transition: all .1s ease-in-out;
+		transition: all .1s ease-in-out;
+	}
+	.large_format.photo_gallery .image-caption {
+		position:relative;
+	}
+	#large-title .twitter-follow-button{
+		top:10px;
+		right:10px;
+	}
+	#footer #footer-menus #partners .menu ul li{
+		width:100%;
+		float:none;
+	}
+	#footer-menus .c6 ul{
+		display:none;
+	}
+	.facebook-button{
+		margin-right:10px;
+	}
+	.pinterest-button{
+		margin-right:30px;
+	}
+	.facebook-button span{
+		margin:0;
+	}
+	.wfull.topstory .pinterest-button img {
+		width:auto;
+		height:auto;
+		margin-bottom:0;
+	}
+	.pinterest-button{
+		margin-bottom:0;
+	}
+	#large-title .twitter-follow-button{
+		display:none;
+	}
+}
+
+@media handheld, only screen and (max-width: 600px), only screen and (max-device-width: 600px) and (orientation:portrait){
+	
+	#primary.c8{
+		width:100%;
+		border-right:0;
+	}
+	#secondary.c4{
+		width:100%;
+	}
+	
+	 .wfull img.img320x192, .wfull img.img320x192,  .wfull img.img320x448, .wfull img.img320x448 {
+		margin: 0 15px 15px 0;
+		float:left;
+	}
+	
+	 .wfull img,  .wfull span, .wfull p, #secondary .wfull img, .centered .wfull img, .centered .wfull span, .centered .wfull p{
+		display:none;
+	}
+	.wfull.cartoon img, #secondary .wfull.adunit300x250 img{
+		display:block;
+		float: none;
+   		margin: 0 auto;
+	}
+	.wfull.topstory img, .centered.topstory .wfull img{
+		display:block;
+		width:300px;
+		height:auto;
+		margin:0 auto 15px;
+		float:none;
+	}
+	
+	.wfull.featured span, .centered.topstory .wfull p{
+		display:block;
+	}
+	.leftpad, .rightpad{
+		padding:0x;
+	}
+	.rborder{
+		border:0;
+	}
+	.c6.rborder .centered .wfull{
+		border-bottom:1px solid #7F7F7F;
+	}
+	.secondaryTxt{
+		display:none;
+	}
+	.photo_gallery #swipebox {
+		height:50%;
+	}
+	.wfull .large_format.photo_gallery .mid {
+		min-height: auto;
+	}
+	.large_format.photo_gallery .controls {
+		top:0px;
+	}
+	.large_format.photo_gallery .controls .left, .large_format.photo_gallery .controls .right {
+		display:none;
+	}
+	#large-title .twitter-follow-button{
+		display:none;
+	}
+	
+	.pinterest-button{
+		margin-bottom:0;
+	}
+	
+}
+@media handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px) and (orientation:portrait){
+	.wfull.topstory img{
+		display:block;
+		width:300px;
+		height:auto;
+		margin:0 auto 15px;
+		float:none;
+	}
+	.wfull.topstory .pinterest-button img {
+		width:auto;
+		height:auto;
+		margin-bottom:0;
+	}
+	.pinterest-button{
+		margin-bottom:0;
+	}
+	
+	.headline {
+		font-size: 26px;
+		line-height: 1.1em;
+	}
+	.thumb_farm .c3 {
+		width:25%;
+	}
+	
+	.newsalerts.searchform{
+		position:relative;
+		width:90%;
+		margin-bottom:20px;
+	}
+	.large_format.photo_gallery {
+		overflow:visible;
+	}
+	.large_format.photo_gallery .image-caption {
+		position:relative;
+	}
+	.large_format.photo_gallery .controls {
+		top:0px;
+	}
+	.large_format.photo_gallery a h2 {
+		top:175px;
+	}
+	.social-bar {
+		margin: 100px 0 20px;
+	}
+	#large-title .twitter-follow-button {
+		right: 10px;
+    	top: 65px;	
+	}
+	.photo_gallery #swipebox {
+		height:50%;
+	}
+}
+@media handheld, only screen and (max-width: 320px), only screen and (max-device-width: 320px) and (orientation:portrait){
+	.large_format.photo_gallery #swipebox {
+		top:0;
+		height:90%;
+		width: 73%;
+	}
+	.photo_gallery #swipebox {
+		height:50%;
+	}
+	.alerts a, .trafficUpdates a {
+		width: 60%;
+	}
+}
+
+/* masthead */
+
+/* set width to match sidebar */
+#desktop .top-menu ul.fr {
+	width: 32.7%;
+}
+
+/* define meta area at right of masthead */
+#desktop .header-meta {
+	font-family: 'Franklin ITC Pro Med', arial, sans-serif;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 31%;
+}
+.header-meta a:hover {
+	text-decoration: none;
+}

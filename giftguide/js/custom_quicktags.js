@@ -1,0 +1,1 @@
+edButtons.push( new edButton( 'storybar', 'storybar', '[storybar title="" link=""]', '[/storybar]\n' ) );
